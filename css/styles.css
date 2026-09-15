@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    border: 1px solid black; 
 }
 
 body {
@@ -28,7 +29,7 @@ header {
 }
 
 img {
-    width: 100px;
+    width: 100%;
     height: auto;
 }
 
@@ -94,4 +95,12 @@ p {
 
 .pad {
     padding: 16px;
+}
+
+.bf-yel {
+    background-color: #F7D842 (252, 246, 152);
+}
+
+.bg-white {
+    background-color: beige;
 }
