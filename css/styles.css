@@ -14,7 +14,20 @@ body {
     margin-right: auto;
 }
 
+
 nav {
     border: solid black 1px;
     grid-column: span 5;
+}
+
+
+header {
+    grid-column: span 5;
+    display: grid;
+    grid-template: auto / 2fr 3fr;
+}
+
+img {
+    width: 100%
+    height: auto;
 }
