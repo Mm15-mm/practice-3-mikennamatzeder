@@ -2,12 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 1px solid black; 
+    /* Temp */
+    /* border: solid black 1px; */
 }
 
 body {
-    display: grid;
-    grid-template auto / 1fr 1fr 1fr 1fr 1fr;
+   
+    display: grid
+    grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +17,6 @@ body {
 
 
 nav {
-    border: solid black 1px;
     grid-column: span 5;
 }
 
