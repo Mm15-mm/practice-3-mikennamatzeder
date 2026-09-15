@@ -35,3 +35,63 @@ img {
 aside {
     grid-column: span 1;
 }
+
+main {
+    grid-column: span 4;
+}
+
+section {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+footer {
+    grid-column: span 5;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.frame {
+    border: 6px solid #111111;
+}
+
+.bg-red {
+    background: #D40920;
+    color: #FFFFFF;
+}
+
+.bg-blue {
+    background: #1356A2;
+    color:#FFFFFF;
+}
+
+.bg-yellow {
+    background: #F7D842;
+    color:#111111
+}
+
+.bg-white {
+    background:#F7D842;
+    color:#111111;
+}
+
+.pad {
+    padding: 16px;
+}
